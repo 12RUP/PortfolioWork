@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.left__side {
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.divL{
+    width: 350px;
+}
+.left__img img{
+    width: 350px;
+}
+.contetn img {
+    width: 100%;
+}
+.content{
+    width: 450px;
+}
+.img {
+}
+.center {
+    grid-column-start: 4;
+    grid-column-end: 11;
+}
+.content {
+}
+.card {
+}
+.card__img {
+}
+.card__text {
+}
+.right__side {
+    grid-column-start: 10;
+    grid-column-end:13 ;
+}
